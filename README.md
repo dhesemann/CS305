@@ -1,1 +1,20 @@
-# CS305
+# Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial is a financial consulting company that develops individualized financial plans their patrons.  They were in the process of modernizing their operations and wanted our company, Global Rain, to help them implement the most current and effective software security for their RESTful web application.
+
+# What did you do particularly well in identifying their software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+I think I did well in identifying potential security risks to address based on the software requirements.  Understanding where the software may be vulnerable may help quite a bit in the process of reviewing the code or a dependency check report, as there is already some idea what to look out for.  It’s important to code securely because errors in the code, failing to properly validate input, or other insecure practices can provide an opportunity for a malicious attack.  Software security protects a company’s private information, keeps the information of their clients inaccessible, and keeps the software functioning as intended.
+
+# What about the process of working through the vulnerability assessment did you find challenging or helpful?
+I found it challenging to work through a vulnerability assessment using Spring framework.  I was unfamiliar with the framework and found it more difficult to identify issues in the code or understand which vulnerabilities may apply because I was unsure how the program worked and what I needed to include in my assessment.  It was also helpful, since I slowly learned about Spring framework and how to use it.
+
+# How did you approach the need to increase layers of security? What techniques or strategies would you use in the future to assess vulnerabilities and determine mitigation techniques?
+I approached the need to increase layers of security as the expectation.  I anticipated several potential vulnerabilities at the beginning of the project and I expected that most would need to be addressed individually.  In the future, I intend to treat secure coding practices as the standard and address vulnerabilities immediately when they arise.  I am also now aware of various tools I can use to assess vulnerabilities, so I may choose one based on the language, framework, and IDE I am working with.
+
+# How did you ensure the code and software application were functional and secure? After refactoring code, how did you check to see whether you introduced new vulnerabilities?
+To test functionality, I made sure there were no obvious errors then ran the code to ensure it did what I expected it to do.  To test if it was secure, I manually reviewed the code to look for anything an attacker might see as an opportunity and then I ran an OWASP Dependency Check before and after refactoring the code to check for vulnerabilities involving the libraries being used and ensure nothing new showed up after refactoring the code.
+
+# What resources, tools, or coding practices did you employ that you might find helpful in future assignments or tasks?
+In project one, I learned some of the basics of Spring framework, as well as how to use Dependency Check, which may prove useful in the future.  In later assignments, I learned about certificate authorities and how to generate a certificate.  I also learned about a variety of ciphers and hashing algorithms that I will most likely use in the future.
+
+# Employers sometimes ask for examples of work that you have successfully completed to demonstrate your skills, knowledge, and experience. What from this particular assignment might you want to showcase to a future employer?
+I think the first section (Interpreting Client Needs) and the last section (Mitigation Plan) of this assignment showcase my ability to understand the requirements of a project and develop an individualized plan to find and address security or functionality concerns in an application.
